@@ -20,7 +20,7 @@ You will take the web page you created in Assignment 1b and will combine it with
    c. __form.tsx__ component (form from Assignment 1b)
 5. __hobby2.tsx__ component that introduces the hobby of the second person. Create the corresponding list2, table2, and form2 components similar to what is done for hobby1.
 
-Use the App.css stylesheet for all components, except create a list.css and with different styles and use it in list.tsx.
+Use the App.css stylesheet for all components, except create a list.css and with different styles and use it in list2.tsx.
 
 ## Assignment Details
 * Use Webstorm to clone this repository on your computer.
