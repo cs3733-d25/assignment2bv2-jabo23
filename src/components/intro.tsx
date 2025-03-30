@@ -7,7 +7,6 @@ function Intro(props:any) {
             <p>This is the intro for {props.name1}</p>
             <p>This is the intro for {props.name2}</p>
         </>
-
     );
 }
 

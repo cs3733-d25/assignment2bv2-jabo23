@@ -6,13 +6,12 @@ import Hobby2 from './components/hobby2/hobby2.tsx';
 
 function App() {
     return (
-        <>
-            <h1>Hello World</h1>
+        <div className="App">
             <Title />
             <Intro name1={"Jacob"} name2={"Chris"}/>
             <Hobby1 />
             <Hobby2 />
-        </>
+        </div>
     );
 }
 
