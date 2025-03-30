@@ -7,7 +7,6 @@ import Hobby2 from './components/hobby2/hobby2.tsx';
 function App() {
     return (
         <>
-            <h1>Hello World</h1>
             <Title />
             <Intro />
             <Hobby1 />
