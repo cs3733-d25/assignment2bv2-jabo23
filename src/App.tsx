@@ -9,7 +9,7 @@ function App() {
         <>
             <h1>Hello World</h1>
             <Title />
-            <Intro />
+            <Intro name1={"Jacob"} name2={"Chris"}/>
             <Hobby1 />
             <Hobby2 />
         </>
