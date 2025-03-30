@@ -8,7 +8,7 @@ function Hobby2() {
         <div className={"Hobby2"}>
             <h1 id={"title"}>Chris's Hobby: Photography</h1>
             <div id={"bird"}>
-                <img src={"IMG_2341.JPG"} alt={"Image of a bird"} width={640}/>
+                <img src={"/IMG_2341.JPG"} alt={"Image of a bird"} width={640}/>
             </div>
             <p>I've been avidly taking photos for as long as I can remember, starting out with a small digital camera and my
                 iPod touch. I got my first DSLR ("fancy" camera), a Canon EOS Rebel T5, in middle school. Now I shoot with a
