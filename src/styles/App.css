@@ -1,17 +1,15 @@
-:root {
-    background-color: midnightblue;
-}
+/*:root {*/
+/*    background-color: white;*/
+/*}*/
 
-.Title, .Intro, .Hobby1, .Hobby2 {
+/*.Title, .Intro, .Hobby1, .Hobby2 {*/
+.Hobby1 {
     background-color: honeydew;
     border: 2px solid black;
     border-radius: 30px;
     margin: 20px;
     padding: 20px;
-}
-
-.Title {
-    text-align: center;
+    box-shadow: 3px 3px 5px black;
 }
 
 .List1, .Table1, .Form1 {
@@ -19,8 +17,23 @@
     border-radius: 30px;
     margin: 10px;
     padding: 20px;
+    box-shadow: 3px 3px 5px gray;
 }
 
 .Hobby1 h2, .Hobby1 .hobby1img {
     text-align: center;
+}
+
+.Hobby1 img {
+    border-radius: 20px;
+}
+
+.Table1 .collapse {
+    border: 3px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.Table1 td {
+    border: 1px solid gray;
 }
