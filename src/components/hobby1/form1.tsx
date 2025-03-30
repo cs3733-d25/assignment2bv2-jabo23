@@ -2,7 +2,7 @@ import '../../styles/App.css';
 
 function Form1() {
     return (
-        <>
+        <div className="Form1">
             <h3>Leave a comment if you also like skiing!</h3>
             <form>
                 <label htmlFor="fullname">Full Name:</label>
@@ -46,7 +46,7 @@ function Form1() {
                 <br/><br/>
                 <button>Submit</button>
             </form>
-        </>
+        </div>
     );
 }
 

@@ -2,7 +2,7 @@ import '../../styles/App.css';
 
 function List1() {
     return (
-        <>
+        <div className="List1">
             <h3>Some reasons I like skiing:</h3>
             <ul>
                 <li id="firstli">It's a great workout</li>
@@ -12,7 +12,7 @@ function List1() {
                 <li>Doing easy runs is soothing</li>
                 <li>Chairlift rides can spark fun conversations</li>
             </ul>
-        </>
+        </div>
     );
 }
 

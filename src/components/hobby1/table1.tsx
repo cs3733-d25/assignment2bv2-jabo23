@@ -2,16 +2,17 @@ import '../../styles/App.css';
 
 function Table1() {
     return (
-        <table className="collapse">
-            <caption>Some of my favorite ski areas:</caption>
-            <thead>
+        <div className="Table1">
+            <table className="collapse">
+                <caption>Some of my favorite ski areas:</caption>
+                <thead>
                 <tr>
                     <th>Name</th>
                     <th>State</th>
                     <th>Vertical Drop</th>
                 </tr>
-            </thead>
-            <tbody>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Saddleback</td>
                     <td>Maine</td>
@@ -32,8 +33,9 @@ function Table1() {
                     <td>Utah</td>
                     <td>2538 feet</td>
                 </tr>
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     );
 }
 

@@ -5,7 +5,7 @@ import Form1 from "./form1.tsx";
 
 function Hobby1() {
     return (
-        <div>
+        <div className="Hobby1">
             <h2>Jacob's Hobby: Skiing</h2>
             <p>
                 One of my favorite hobbies is skiing. I've been skiing for as long as I can
@@ -14,14 +14,12 @@ function Hobby1() {
                 have a lot of fun skiing with them. I also go on some of the trips hosted by
                 WPI's Ski and Snowboard Club, where my roommate often joins me.
             </p>
-            <img src={"jacobhobby.jpg"} alt="Ski Mountain Scenery" width="640" />
-            <br/>
+            <div className={"hobby1img"}>
+                <img src={"jacobhobby.jpg"} alt="Ski Mountain Scenery" width="640" />
+            </div>
             <List1 />
-            <br/>
             <Table1 />
-            <br/>
             <Form1 />
-            <br/>
         </div>
     );
 }
