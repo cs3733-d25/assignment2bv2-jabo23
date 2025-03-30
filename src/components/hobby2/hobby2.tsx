@@ -6,7 +6,7 @@ import Form2 from "./form2.tsx";
 function Hobby2() {
     return (
         <div className={"Hobby2"}>
-            <h2>Introduction to Chris's Hobby</h2>
+            <h1 id={"title"}>Chris's Hobby: Photography</h1>
             <div id={"bird"}>
                 <img src={"/IMG_2341.JPG"} alt={"Image of a bird"} width={640}/>
             </div>

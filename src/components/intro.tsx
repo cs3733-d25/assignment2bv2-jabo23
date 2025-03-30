@@ -18,7 +18,7 @@ function Intro(props:introProps) {
             </p>
             <h2>Introducing {props.name2}:</h2>
             <p>
-
+                My name is {props.name2}, and I'm a CS major in the class of 2027
             </p>
         </div>
     );
