@@ -1,3 +1,4 @@
+
 /*:root {*/
 /*    background-color: white;*/
 /*}*/
@@ -37,3 +38,34 @@
 .Table1 td {
     border: 1px solid gray;
 }
+
+
+.Form2, .Table2 {
+    input[type="text"], textarea, select {
+        display: block;
+    }
+
+    .collapse {
+        border-collapse: collapse;
+        border: 2px solid #45475a;
+
+        th, td {
+            border: 1px solid #45475a;
+        }
+    }
+
+    .bottom_margin {
+        margin-bottom: 20px;
+    }
+}
+
+.Hobby2 {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    #bird {
+        text-align: center;
+    }
+}
+
+

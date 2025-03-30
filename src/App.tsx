@@ -8,7 +8,7 @@ function App() {
     return (
         <div className="App">
             <Title />
-            <Intro />
+            <Intro name1={"Jacob"} name2={"Chris"}/>
             <Hobby1 />
             <Hobby2 />
         </div>
