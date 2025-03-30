@@ -15,9 +15,13 @@ function Hobby1() {
                 WPI's Ski and Snowboard Club, where my roommate often joins me.
             </p>
             <img src={"jacobhobby.jpg"} alt="Ski Mountain Scenery" width="640" />
+            <br/>
             <List1 />
+            <br/>
             <Table1 />
+            <br/>
             <Form1 />
+            <br/>
         </div>
     );
 }

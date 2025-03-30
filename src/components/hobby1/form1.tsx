@@ -3,7 +3,7 @@ import '../../styles/App.css';
 function Form1() {
     return (
         <>
-            <h2>Leave a comment if you also like skiing!</h2>
+            <h3>Leave a comment if you also like skiing!</h3>
             <form>
                 <label htmlFor="fullname">Full Name:</label>
                 <input type="text" id="fullname"/>
