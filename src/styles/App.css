@@ -71,6 +71,9 @@
     /*background-color: black;*/
     color: white;
     padding: 30px;
+    margin: auto;
+    width: 70%;
     background-image: linear-gradient(dodgerblue, blue);
     border-radius: 30px;
+    align-items: center;
 }
