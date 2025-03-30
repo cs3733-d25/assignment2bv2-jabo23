@@ -15,7 +15,7 @@ function Hobby1() {
                 WPI's Ski and Snowboard Club, where my roommate often joins me.
             </p>
             <div className={"hobby1img"}>
-                <img src={"jacobhobby.jpg"} alt="Ski Mountain Scenery" width="640" />
+                <img src={"/jacobhobby.jpg"} alt="Ski Mountain Scenery" width="640" />
             </div>
             <List1 />
             <Table1 />

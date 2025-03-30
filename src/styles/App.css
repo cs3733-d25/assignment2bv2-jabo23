@@ -1,9 +1,8 @@
 
-/*:root {*/
-/*    background-color: white;*/
-/*}*/
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/*.Title, .Intro, .Hobby1, .Hobby2 {*/
 .Hobby1 {
     background-color: honeydew;
     border: 2px solid black;
@@ -68,4 +67,10 @@
     }
 }
 
-
+.Intro {
+    /*background-color: black;*/
+    color: white;
+    padding: 30px;
+    background-image: linear-gradient(dodgerblue, blue);
+    border-radius: 30px;
+}

@@ -33,7 +33,7 @@ function Form1() {
                 <br/><br/>
                 <label htmlFor="comment">Comment:</label>
                 <br/>
-                <textarea rows={5} cols={5} id="comment"></textarea>
+                <textarea rows={5} cols={80} id="comment"></textarea>
                 <br/><br/>
                 <label htmlFor="region">What region do you typically ski?</label>
                 <br/>
