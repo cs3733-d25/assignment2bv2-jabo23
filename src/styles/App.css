@@ -1,4 +1,3 @@
-
 /*:root {*/
 /*    background-color: white;*/
 /*}*/
@@ -60,11 +59,29 @@
 }
 
 .Hobby2 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 40px;
 
     #bird {
         text-align: center;
+    }
+    #title {
+        text-align: center;
+    }
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    h1, h2, h3, h4, h5, h6 {
+        color: #89b4fa;
+        font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    }
+    textarea, input, button {
+        background-color: #313244;
+        border-color: #45475a;
+        color: #cdd6f4;
     }
 }
 
